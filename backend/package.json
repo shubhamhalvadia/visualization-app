@@ -1,0 +1,14 @@
+{
+  "name": "visualization-app-backend",
+  "version": "1.0.0",
+  "description": "Backend for Visualization App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "uuid": "^9.0.1"
+  }
+}
