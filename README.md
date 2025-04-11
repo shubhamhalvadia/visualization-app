@@ -75,4 +75,4 @@ Please note that both Python and R must be installed on the system with their re
 
 ## Application working video
 
-[Click here to view the demo video](https://drive.google.com/uc?id=1ytAgGhbWc0jQpcAZhQb1xZg2kEiCr9xD&export=download)
+[Click here to view the demo video](https://drive.google.com/uc?id=1-jy6T8OyDPz3CV5m5u73ljY_dR_0PQKn&export=download)
