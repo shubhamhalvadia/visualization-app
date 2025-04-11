@@ -1,0 +1,25 @@
+/* src/app/visualization/visualization.component.css */
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.button-container {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.output {
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}

@@ -1,0 +1,53 @@
+<!-- src/app/visualization/visualization.component.html -->
+<mat-toolbar color="accent">
+  Visualization Generator
+</mat-toolbar>
+
+<div class="container">
+  <mat-card>
+    <mat-card-content>
+      <form (ngSubmit)="generateVisualization()">
+        <!-- Language Selector -->
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Select Language</mat-label>
+          <mat-select [(ngModel)]="language" name="language">
+            <mat-option value="python">Python</mat-option>
+            <mat-option value="r">R</mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <!-- Code Input Area -->
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Enter your visualization code</mat-label>
+          <textarea matInput rows="10" [(ngModel)]="code" name="code" placeholder="Write your code here..."></textarea>
+        </mat-form-field>
+
+        <!-- Generate Button -->
+        <div class="button-container">
+          <button mat-raised-button color="accent" type="submit">Generate Visualization</button>
+        </div>
+      </form>
+    </mat-card-content>
+  </mat-card>
+
+  <!-- Display Output Visualization -->
+  <div class="output" *ngIf="visUrl">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Generated Visualization</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <iframe [src]="visUrl | safeUrl" width="100%" height="600" frameborder="0"></iframe>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <!-- Display Error Message -->
+  <div *ngIf="errorMessage" class="error">
+    <mat-card>
+      <mat-card-content>
+        {{ errorMessage }}
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

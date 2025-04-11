@@ -1,0 +1,55 @@
+/* Global Styles */
+html, body {
+    height: 100%;
+    background-color: #f5f5f5;  /* Light grey background to offset white areas */
+  }
+  
+  body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    color: #333;              /* A darker text color for readability */
+  }
+  
+  /* Container styling for centering content and adding padding */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Utility classes for spacing */
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for Angular Material Cards to add a subtle shadow and rounded corners */
+  .mat-card {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Ensure cards have a white background */
+    margin-bottom: 20px;
+  }
+  
+  /* Toolbar customizations */
+  .mat-toolbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* Additional styling for buttons to give more spacing */
+  .button-container {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  /* Custom styles for the iframe container if needed */
+  .iframe-container iframe {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
