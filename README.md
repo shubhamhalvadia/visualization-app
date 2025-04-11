@@ -79,3 +79,4 @@ Please note that both Python and R must be installed on the system with their re
   <source src="https://drive.google.com/uc?id=1ytAgGhbWc0jQpcAZhQb1xZg2kEiCr9xD&export=download" type="video/quicktime">
   Your browser does not support the video tag.
 </video>
+[Click here to view the demo video](https://drive.google.com/uc?id=1ytAgGhbWc0jQpcAZhQb1xZg2kEiCr9xD&export=download)
