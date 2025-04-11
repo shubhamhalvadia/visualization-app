@@ -72,3 +72,10 @@ Before running this application, ensure that the system has both **Python** and 
 
 The Visualization App demonstrates a modern, language-agnostic approach to rendering visualizations. By integrating Angular for the frontend and Node.js for secure, dynamic code execution on the backend, the app supports generating static, interactive, and 3D visualizations using Python and R.
 Please note that both Python and R must be installed on the system with their respective libraries, and the file-saving functionality in the backend is hardcoded for consistent output.
+
+## Application working video
+
+<video controls width="640">
+  <source src="https://drive.google.com/uc?id=1ytAgGhbWc0jQpcAZhQb1xZg2kEiCr9xD&export=download" type="video/quicktime">
+  Your browser does not support the video tag.
+</video>
