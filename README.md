@@ -50,3 +50,25 @@ Before running this application, ensure that the system has both **Python** and 
 2. Install dependencies with:
    ```bash
    npm install
+3. Ensure that both Python and R are installed on the system, and the following are available:
+    - For Python: matplotlib, plotly, kaleido, etc.
+    - For R: ggplot2, plotly, htmlwidgets, etc.
+4. Start the backend server:
+   ```bash
+   npm start
+
+### Frontend Setup
+
+1. Navigate to the `frontend/visualization-app-frontend/` directory.
+2. Install dependencies with:
+   ```bash
+   npm install
+3. Start the Angular development server:
+   ```bash
+   ng serve
+4. Open your browser and navigate to http://localhost:4200 to use the application.
+
+## Conclusion
+
+The Visualization App demonstrates a modern, language-agnostic approach to rendering visualizations. By integrating Angular for the frontend and Node.js for secure, dynamic code execution on the backend, the app supports generating static, interactive, and 3D visualizations using Python and R.
+Please note that both Python and R must be installed on the system with their respective libraries, and the file-saving functionality in the backend is hardcoded for consistent output.
